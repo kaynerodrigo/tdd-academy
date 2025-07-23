@@ -109,19 +109,18 @@ class ZooServiceTest {
         // 5. Call zooService.updateZoo(1L, updatedZoo)
         // 6. Assert that the returned zoo has the updated name
         // 7. Verify that zooRepository.save was called once
-        
-        // Your code here:
-         Long zooId = 1L;
-         manilaZoo.setId(zooId);
-         Zoo updatedZoo = new Zoo("Updated Manila Zoo", "Updated Location", "Updated description");
 
-         when(zooRepository.findById(zooId)).thenReturn(Optional.of(manilaZoo));
-         when(zooRepository.save(any(Zoo.class))).thenReturn(updatedZoo);
+        Long zooId = 1L;
+        manilaZoo.setId(zooId);
+        Zoo updatedZoo = new Zoo("Updated Manila Zoo", "Updated Location", "Updated description");
 
-         Zoo result = zooService.updateZoo(zooId, updatedZoo);
+        when(zooRepository.findById(zooId)).thenReturn(Optional.of(manilaZoo));
+        when(zooRepository.save(any(Zoo.class))).thenReturn(updatedZoo);
 
-         assertEquals("Updated Manila Zoo", result.getName());
-         verify(zooRepository, times(1)).save(any(Zoo.class));
+        Zoo result = zooService.updateZoo(zooId, updatedZoo);
+
+        assertEquals("Updated Manila Zoo", result.getName());
+        verify(zooRepository, times(1)).save(any(Zoo.class));
     }
 
     @Test
@@ -132,18 +131,22 @@ class ZooServiceTest {
         // 2. Create a zoo with updated details
         // 3. Use assertThrows to test that zooService.updateZoo(999L, updatedZoo) throws IllegalArgumentException
         // 4. Verify the exception message contains "Zoo not found with id: 999"
-        
-        // Your code here:
-         Long zooId = 999L;
-         Zoo updatedZoo = new Zoo("Updated Zoo", "Updated Location", "Updated description");
 
-         when(zooRepository.findById(zooId)).thenReturn(Optional.empty());
+        // 1. Mock zooRepository.findById(999L) to return Optional.empty()
+        Long zooId = 999L;
+        when(zooRepository.findById(zooId)).thenReturn(Optional.empty());
 
-         IllegalArgumentException exception = assertThrows(
-             IllegalArgumentException.class,
-             () -> zooService.updateZoo(zooId, updatedZoo)
-         );
-         assertTrue(exception.getMessage().contains("Zoo not found with id: 999"));
+        // 2. Create a zoo with updated details
+        Zoo updatedZoo = new Zoo("Updated Zoo", "Updated Location", "Updated description");
+
+        // 3. Use assertThrows to test that zooService.updateZoo(999L, updatedZoo) throws IllegalArgumentException
+        IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> zooService.updateZoo(zooId, updatedZoo)
+        );
+
+        // 4. Verify the exception message contains "Zoo not found with id: 999"
+        assertTrue(exception.getMessage().contains("Zoo not found with id: 999"));
     }
 
     @Test
@@ -153,14 +156,11 @@ class ZooServiceTest {
         // 1. Mock zooRepository.existsById(1L) to return true
         // 2. Call zooService.deleteZoo(1L)
         // 3. Verify that zooRepository.deleteById(1L) was called once
-        
-        // Your code here:
-         Long zooId = 1L;
-         when(zooRepository.existsById(zooId)).thenReturn(true);
 
-         zooService.deleteZoo(zooId);
-
-         verify(zooRepository, times(1)).deleteById(zooId);
+        Long zooId = 1L;
+        when(zooRepository.existsById(zooId)).thenReturn(true);
+        zooService.deleteZoo(zooId);
+        verify(zooRepository, times(1)).deleteById(zooId);
     }
 
     @Test
@@ -170,16 +170,19 @@ class ZooServiceTest {
         // 1. Mock zooRepository.existsById(999L) to return false
         // 2. Use assertThrows to test that zooService.deleteZoo(999L) throws IllegalArgumentException
         // 3. Verify the exception message contains "Zoo not found with id: 999"
-        
-        // Your code here:
-         Long zooId = 999L;
-         when(zooRepository.existsById(zooId)).thenReturn(false);
 
-         IllegalArgumentException exception = assertThrows(
-             IllegalArgumentException.class,
-             () -> zooService.deleteZoo(zooId)
-         );
-         assertTrue(exception.getMessage().contains("Zoo not found with id: 999"));
+        // 1. Mock zooRepository.existsById(999L) to return false
+        Long zooId = 999L;
+        when(zooRepository.existsById(zooId)).thenReturn(false);
+
+        // 2. Use assertThrows to test that zooService.deleteZoo(999L) throws IllegalArgumentException
+        IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> zooService.deleteZoo(zooId)
+        );
+
+        // 3. Verify the exception message contains "Zoo not found with id: 999"
+        assertTrue(exception.getMessage().contains("Zoo not found with id: 999"));
     }
 
     @Test
@@ -209,4 +212,4 @@ class ZooServiceTest {
         assertTrue(zooService.zooExists(zooId));
         assertFalse(zooService.zooExists(999L));
     }
-} 
+}
