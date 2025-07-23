@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="734f1133-9698-40a5-bc95-4f1de9858b27" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/8.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/SUMMARY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/main/com/tddacademy/zoo/ZooApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/main/com/tddacademy/zoo/controller/ZooController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/main/com/tddacademy/zoo/model/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/main/com/tddacademy/zoo/model/Enclosure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/main/com/tddacademy/zoo/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/main/com/tddacademy/zoo/model/Zoo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/main/com/tddacademy/zoo/service/ZooService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/test/com/tddacademy/zoo/ZooApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/test/com/tddacademy/zoo/controller/ZooControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/classes/java/test/com/tddacademy/zoo/service/ZooServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/reports/tests/test/classes/com.tddacademy.zoo.controller.ZooControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/reports/tests/test/packages/com.tddacademy.zoo.controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/test-results/test/TEST-com.tddacademy.zoo.controller.ZooControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/tddacademy/zoo/ZooApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/tddacademy/zoo/controller/ZooController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/tddacademy/zoo/model/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/tddacademy/zoo/model/Enclosure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/tddacademy/zoo/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/tddacademy/zoo/model/Zoo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/tddacademy/zoo/service/ZooService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/test/java/com/tddacademy/zoo/ZooApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/test/java/com/tddacademy/zoo/controller/ZooControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/test/java/com/tddacademy/zoo/service/ZooServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tddacademy/zoo/ZooApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tddacademy/zoo/controller/ZooController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tddacademy/zoo/model/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tddacademy/zoo/model/Enclosure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tddacademy/zoo/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tddacademy/zoo/model/Zoo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tddacademy/zoo/repository/ZooRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tddacademy/zoo/service/ZooService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/tddacademy/zoo/ZooApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/tddacademy/zoo/controller/ZooControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/tddacademy/zoo/repository/ZooRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/tddacademy/zoo/service/ZooServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/lab3-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/lab3-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tddacademy.zoo.service.ZooServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tddacademy.zoo.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tddacademy.zoo.service.ZooServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tddacademy/zoo/ZooApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tddacademy/zoo/controller/ZooController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tddacademy/zoo/model/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tddacademy/zoo/model/Enclosure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tddacademy/zoo/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tddacademy/zoo/model/Zoo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tddacademy/zoo/repository/ZooRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tddacademy/zoo/service/ZooService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tddacademy/zoo/ZooApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tddacademy/zoo/controller/ZooControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tddacademy/zoo/repository/ZooRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tddacademy/zoo/service/ZooServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="30GTMDK2MCiuxB6xiLBfqNShQAO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ZooApplication.executor": "Run",
+    "Gradle.ZooControllerTest.executor": "Run",
+    "Gradle.ZooControllerTest.shouldDeleteZooWhenExists.executor": "Run",
+    "Gradle.ZooControllerTest.shouldReturn404WhenDeletingNonExistentZoo.executor": "Run",
+    "Gradle.ZooControllerTest.shouldReturn404WhenUpdatingNonExistentZoo.executor": "Run",
+    "Gradle.ZooControllerTest.shouldUpdateZooWhenExists.executor": "Run",
+    "Gradle.ZooRepositoryTest.executor": "Run",
+    "Gradle.ZooRepositoryTest.shouldCheckIfZooExistsById.executor": "Run",
+    "Gradle.ZooRepositoryTest.shouldDeleteZooById.executor": "Run",
+    "Gradle.ZooRepositoryTest.shouldFindZoosByLocationContaining.executor": "Run",
+    "Gradle.ZooRepositoryTest.shouldFindZoosByNameContaining.executor": "Run",
+    "Gradle.ZooServiceTest.executor": "Run",
+    "Gradle.ZooServiceTest.shouldDeleteZooWhenExists.executor": "Run",
+    "Gradle.ZooServiceTest.shouldThrowExceptionWhenDeletingNonExistentZoo.executor": "Run",
+    "Gradle.ZooServiceTest.shouldThrowExceptionWhenUpdatingNonExistentZoo.executor": "Run",
+    "Gradle.ZooServiceTest.shouldUpdateZooWhenExists.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jahrenhans.dayag/Desktop/tdd-academy/session1/lab3"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ZooRepositoryTest.shouldDeleteZooById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.tddacademy.zoo.repository.ZooRepositoryTest.shouldDeleteZooById&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ZooServiceTest.shouldDeleteZooWhenExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.tddacademy.zoo.service.ZooServiceTest.shouldDeleteZooWhenExists&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ZooServiceTest.shouldThrowExceptionWhenDeletingNonExistentZoo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.tddacademy.zoo.service.ZooServiceTest.shouldThrowExceptionWhenDeletingNonExistentZoo&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ZooServiceTest.shouldThrowExceptionWhenUpdatingNonExistentZoo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.tddacademy.zoo.service.ZooServiceTest.shouldThrowExceptionWhenUpdatingNonExistentZoo&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ZooServiceTest.shouldUpdateZooWhenExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.tddacademy.zoo.service.ZooServiceTest.shouldUpdateZooWhenExists&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ZooServiceTest.shouldThrowExceptionWhenDeletingNonExistentZoo" />
+        <item itemvalue="Gradle.ZooServiceTest.shouldDeleteZooWhenExists" />
+        <item itemvalue="Gradle.ZooServiceTest.shouldThrowExceptionWhenUpdatingNonExistentZoo" />
+        <item itemvalue="Gradle.ZooServiceTest.shouldUpdateZooWhenExists" />
+        <item itemvalue="Gradle.ZooRepositoryTest.shouldDeleteZooById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="734f1133-9698-40a5-bc95-4f1de9858b27" name="Changes" comment="" />
+      <created>1753252859722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753252859722</updated>
+    </task>
+    <servers />
+  </component>
+</project>
