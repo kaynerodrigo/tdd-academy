@@ -3,13 +3,13 @@ package com.tddacademy.zoo.model;
 import java.time.LocalDate;
 
 public record Animal(
-    Long id,
-    String name,
-    String species,
-    String breed,
-    LocalDate dateOfBirth,
-    Double weight,
-    String healthStatus
+        Long id,
+        String name,
+        String species,
+        String breed,
+        LocalDate dateOfBirth,
+        Double weight,
+        String healthStatus
 ) {
     public Animal {
         if (name == null || name.trim().isEmpty()) {

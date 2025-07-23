@@ -16,7 +16,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 class ZooControllerTest {
 
     @Autowired
-    private MockMvc mockMvc;
+    private MockMvc mockMvc; // starts the mock mvc
 
     @Test
     @DisplayName("GET /api/zoos should return all zoos")
@@ -46,16 +46,17 @@ class ZooControllerTest {
         //    - jsonPath("$.name").value("Manila Zoo")
         //    - jsonPath("$.location").value("Manila, Philippines")
         //    - jsonPath("$.description").value("A beautiful zoo in the heart of Manila")
-        
-        // Your code here:
-         mockMvc.perform(get("/api/zoos/1"))
 
-             .andExpect(status().isOk())
-             .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-             .andExpect(jsonPath("$.id").value(1))
-                 .andExpect(jsonPath("$.name").value("Manila Zoo"))
-                 .andExpect(jsonPath("$.location").value("Manila, Philippines"))
-                 .andExpect(jsonPath("$.description").value("A beautiful zoo in the heart of Manila"));
+        mockMvc.perform(get("/api/zoos/1"))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.id").value(1))
+                .andExpect(jsonPath("$.name").value("Manila Zoo"))
+                .andExpect(jsonPath("$.location").value("Manila, Philippines"))
+                .andExpect(jsonPath("$.description").value("A beautiful zoo in the heart of Manila")
+                );
+
+
     }
 
     @Test
@@ -64,9 +65,8 @@ class ZooControllerTest {
         // TODO: Complete this test
         // 1. Use mockMvc.perform(get("/api/zoos/999")) to make a GET request for non-existent zoo
         // 2. Add expectation for status().isNotFound()
-        
-        // Your code here:
-         mockMvc.perform(get("/api/zoos/999"))
-             .andExpect(status().isNotFound());
+
+        mockMvc.perform(get("/api/zoos/999"))
+                .andExpect(status().isNotFound());
     }
 } 

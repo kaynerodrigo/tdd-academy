@@ -46,8 +46,8 @@ class ZooTest {
 
         // When & Then
         IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new Zoo(id, name, location, description, enclosures, people)
+                IllegalArgumentException.class,
+                () -> new Zoo(id, name, location, description, enclosures, people)
         );
         assertEquals("Zoo name cannot be null or empty", exception.getMessage());
     }
@@ -65,8 +65,8 @@ class ZooTest {
 
         // When & Then
         IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new Zoo(id, name, location, description, enclosures, people)
+                IllegalArgumentException.class,
+                () -> new Zoo(id, name, location, description, enclosures, people)
         );
         assertEquals("Zoo name cannot be null or empty", exception.getMessage());
     }
@@ -84,8 +84,8 @@ class ZooTest {
 
         // When & Then
         IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new Zoo(id, name, location, description, enclosures, people)
+                IllegalArgumentException.class,
+                () -> new Zoo(id, name, location, description, enclosures, people)
         );
         assertEquals("Zoo location cannot be null or empty", exception.getMessage());
     }
@@ -103,8 +103,8 @@ class ZooTest {
 
         // When & Then
         IllegalArgumentException exception = assertThrows(
-            IllegalArgumentException.class,
-            () -> new Zoo(id, name, location, description, enclosures, people)
+                IllegalArgumentException.class,
+                () -> new Zoo(id, name, location, description, enclosures, people)
         );
         assertEquals("Zoo location cannot be null or empty", exception.getMessage());
     }
